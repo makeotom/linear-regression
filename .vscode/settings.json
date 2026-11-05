@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "deep-learning-from-scratch"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

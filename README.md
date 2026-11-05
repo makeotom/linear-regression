@@ -10,11 +10,11 @@ The wine quality data set used comes from the UCI Machine Learning Repository. A
 
 ### correlations
 
-![correlation-coefficent](/red_wine/correlations.png)
+![correlation-coefficent](./red_wine/correlations.png)
 
 The highest correlation with alcohol quality we see is between alcohol percentage.
 
-![alcohol-and-quality](/red_wine/alcohol_vs_quality.png)
+![alcohol-and-quality](./red_wine/alcohol_vs_quality.png)
 
 After further examination it is apparent that there is a high correlation between the two as seen through the small p value.
 Before training and testing an algorithm it is important take a closer look at the distribution of quality values in the data.
@@ -81,7 +81,7 @@ pros
 
 ## Summary of findings
 
-![final](./results/5-fold%20(5\5).png)
+![final](./results/f.png)
 
 From here we can further minimize the cost of regression by doing the following (all programmed by hand!):
 * having 1000 epoches (instead of 100)
